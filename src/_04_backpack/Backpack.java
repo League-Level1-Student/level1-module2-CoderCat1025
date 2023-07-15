@@ -14,6 +14,14 @@ public class Backpack {
 		// Your mission is to go to school.
 		// 1. First you need to put all your supplies into your backpack - use
 		// the putInBackpack(...) methods
+		
+		this.pencil.write("hi");
+		this.ruler.measure();
+		this.textbook.read();
+		
+		putInBackpack(this.pencil);
+		putInBackpack(this.ruler);
+		putInBackpack(this.textbook);
 
 		goToSchool();
 	}
