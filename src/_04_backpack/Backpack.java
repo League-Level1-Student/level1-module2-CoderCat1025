@@ -15,13 +15,13 @@ public class Backpack {
 		// 1. First you need to put all your supplies into your backpack - use
 		// the putInBackpack(...) methods
 		
-		this.pencil.write("hi");
-		this.ruler.measure();
-		this.textbook.read();
+		Pencil pencil = new Pencil();
+		Ruler ruler = new Ruler();
+		Textbook textbook = new Textbook();
 		
-		putInBackpack(this.pencil);
-		putInBackpack(this.ruler);
-		putInBackpack(this.textbook);
+		putInBackpack(pencil);
+		putInBackpack(ruler);
+		putInBackpack(textbook);
 
 		goToSchool();
 	}
